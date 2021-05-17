@@ -70,7 +70,9 @@ Perform the following tasks:
 
 1. Create an Elbow Curve to find the best value for `k` using the `df_pca`.
 
-2. Once we define the best value for `k`, run the `Kmeans` algorithm to predict the `k` clusters for the cryptocurrencies data. Use the `df_pca` to run the `KMeans` algorithm.
+![elbowplot](Images/elbow_plot.png)
+
+2. Once we define the best value for `k` which is 4, we run the `Kmeans` algorithm to predict the `k` clusters for the cryptocurrencies data. Use the `df_pca` to run the `KMeans` algorithm.
 
 3. Then create a new DataFrame named `clustered_df`, that includes the following columns `"Algorithm", "ProofType", "TotalCoinsMined", "TotalCoinSupply", "PC 1", "PC 2", "PC 3", "CoinName", "Class"`. You should maintain the index of the `crypto_df` DataFrames as is shown bellow.
 
